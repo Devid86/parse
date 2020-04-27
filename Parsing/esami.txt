@@ -1,0 +1,7 @@
+geometria 24
+analisi 19
+fisica 25
+economia 27
+informatica 23
+elettrotecnica 24
+elettronica 30
