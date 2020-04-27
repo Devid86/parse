@@ -33,17 +33,9 @@ public class Parse2 {
 			System.out.println(e);
 		}
 		esami.Aggiungi(3, "stocazzo", 25);
-		//esami = new Esami();
 		try {
 			ObjectInputStream in = new ObjectInputStream(new FileInputStream("output.txt"));
-			//Esami app = new Esami();
 			esami=(Esami)in.readObject();
-			//	System.out.println("\n deserializzato : \n");
-			//	app.Stampa();
-			//	System.out.println("\n deserializzato : \n");
-			/*for(int i=0; i<app.getCont(); i++) {
-				esami.Aggiungi(app.materia.get(i),app.voto.get(i));
-			}*/
 			in.close();
 		}
 		catch(IOException e) {
